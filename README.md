@@ -68,30 +68,15 @@
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="github" />
 </p>
 <hr>
-<div align="center">
-  <img src="https://github-readme-stats-nu-ecru.vercel.app/api/top-langs/?username=salahsaeed19&layout=compact&theme=tokyonight&langs_count=20&hide_border=true&cache_seconds=14400&custom_title=Top%20Languages&disable_animations=true" alt="Igor&#39;s Top Languages Used" width="500px">
-  <br>
-  <sub><em><strong>Metric that shows which languages are mostly used in my repositories</strong></em></sub>
-  <br>
-  <br>
-  <img src="https://github-readme-stats-nu-ecru.vercel.app/api?username=salahsaeed19&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true&custom_title=Github%20Stats&rank_icon=percentile&show=reviews,discussions_started,discussions_answered,prs_merged&disable_animations=true&cache_seconds=14400" width="500px">
-  <br>
-  <sub><em><strong>My Github profile metrics</strong></em></sub>
-  <br>
-  <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=salahsaeed19&theme=tokyonight&hide_border=true&stroke=1a1b27&dates=8b949e&sideNums=59A5FA&sideLabels=59A5FA&currStreakNum=C9D1D2&ring=EF8065&fire=EF8065&currStreakLabel=EF8065" alt="GitHub Streak Stats" width="500px">
-  <br>
-  <sub><em><strong>Consistency is key</strong></em></sub>
 
-<br>
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=salahsaeed19&bg_color=ffffff&color=2d202c&line=71416e&point=403d3d&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-<br>
-<!-- deivder -->
-<p align="center">
-    <a href="https://github.com/salahsaeed19">
-        <span>
-            <img align="center"
-                src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=salahsaeed19&theme=github_dark" width="100%" />
-        </span>
-    </a>
+<br />
+<p align="left">
+    <img width="49.5%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=salahsaeed19&layout=compact" />
+    <img width="49.5%"
+        src="https://github-readme-stats.vercel.app/api?username=salahsaeed19&show_icons=true&count_private=true&hide_border=true" />
+    <img width="49.5%"
+        src="https://github-readme-streak-stats.herokuapp.com?user=salahsaeed19&date_format=M%20j%5B%2C%20Y%5D)]" />
 </p>
+<br>
