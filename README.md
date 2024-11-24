@@ -45,7 +45,7 @@
 
 - 👨‍💻 All my projects are available at my [Git_Hub](https://github.com/salahsaeed19)
 
-- ⚡ Fun fact **World is Ending soon, So better commit your code before you....**
+- ⚡ Fun fact **World is Ending soon, So you better commit your code before you....**
 
 
 
