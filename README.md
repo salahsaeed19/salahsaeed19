@@ -48,7 +48,6 @@
 - ⚡ Fun fact **World is Ending soon, So you better commit your code before you....**
 
 
-
 <br> 
 
 <h2 align="center"><i>Tech Stack</i></h2>
