@@ -23,7 +23,6 @@
             src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg"
             alt="Vaibhav Shevne height="30" width="40" /></a>
 
-
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=salahsaeed19" width="140px">
 	<br>
