@@ -2,7 +2,6 @@
       <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100" />
 </div>
 
-
 <h1 align="center">Hello 👋, I'm Salah El-Din Abu Saif</h1>
 <h3 align="center">A Back-end Developer (Python) | Odoo ERP Developer.</h3>
 <hr>
@@ -46,7 +45,6 @@
 
 - ⚡ Fun fact **World is Ending soon, So you better commit your code before you....**
 
-
 <br> 
 
 <h2 align="center"><i>Tech Stack</i></h2>
@@ -77,4 +75,4 @@
     <img width="49.5%"
         src="https://github-readme-streak-stats.herokuapp.com?user=salahsaeed19&date_format=M%20j%5B%2C%20Y%5D" />
 </p>
-<br>
+
