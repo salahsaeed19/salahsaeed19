@@ -1,4 +1,6 @@
-
+<div align="center">
+      <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100" />
+</div>
 
 <h1 align="center">Hello 👋, I'm Salah El-Din Abu Saif</h1>
 <h3 align="center">A Back-end Developer (Python) | Odoo ERP Developer.</h3>
