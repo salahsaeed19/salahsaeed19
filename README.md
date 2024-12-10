@@ -5,7 +5,6 @@
 <h1 align="center">Hello 👋, I'm Salah El-Din Abu Saif</h1>
 <h3 align="center">A Back-end Developer (Python) | Odoo ERP Developer.</h3>
 <hr>
-<hr>
 <p align="center">
     <a href="https://www.linkedin.com/in/salah-abo-saif/" target="_blank"><img align="center"
              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
