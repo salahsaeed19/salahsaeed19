@@ -1,0 +1,50 @@
+name: Refresh profile analytics
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-analytics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: true
+          fetch-depth: 1
+
+      - name: Generate privacy-safe SVG analytics
+        env:
+          # A classic PAT with read:user is optional and needed for eligible private activity.
+          GH_CONTRIBUTIONS_TOKEN: ${{ secrets.GH_CONTRIBUTIONS_TOKEN }}
+          # The installation token remains limited to this repository and supports public data plus asset updates.
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_USERNAME: salahsaeed19
+          CONTRIBUTION_TIMEZONE: Asia/Hebron
+        run: python3 scripts/generate_contributions.py
+
+      - name: Commit refreshed assets when data changed
+        run: |
+          if [ -z "$(git status --porcelain -- assets)" ]; then
+            echo "No analytics asset changes to publish."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          if git diff --cached --quiet; then
+            echo "No staged analytics asset changes to publish."
+            exit 0
+          fi
+          git commit -m "chore: refresh profile analytics"
+          git push
